@@ -1,0 +1,41 @@
+﻿<Window x:Class="WpfApp1.Window5"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Window5" Height="500" Width="815">
+    <Grid Background="#FFE42626">
+        <Label Content="RECIPE PAGE" HorizontalAlignment="Left" Height="47" Margin="294,-5,0,0" VerticalAlignment="Top" Width="154" Foreground="#FFFDFDFD" FontSize="20" FontWeight="Bold" FontStyle="Italic"/>
+        <Border BorderBrush="#FFF9F4F4" BorderThickness="0,2,0,2" HorizontalAlignment="Center" Height="50" Margin="0,47,0,0" VerticalAlignment="Top" Width="800"/>
+        <Label Content="RECIPE DISPLAY PAGE" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="241" FontSize="22" FontWeight="Bold" FontStyle="Italic" Foreground="#FFFBFAFA" Margin="244,47,0,0"/>
+        <Button Content="SEARCH" HorizontalAlignment="Left" Height="50" Margin="600,102,0,0" VerticalAlignment="Top" Width="200" Background="White" BorderBrush="#FFFDFDFD" Foreground="#FFE42626" FontWeight="Bold" FontStyle="Italic" FontSize="24" Click="Button_Click">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button Content="EDIT RECIPE" HorizontalAlignment="Left" Height="50" Margin="600,167,0,0" VerticalAlignment="Top" Width="200" Background="#FFFFFBFB" BorderBrush="#FFFDFDFD" Foreground="#FFE42626" FontWeight="Bold" FontStyle="Italic" FontSize="24">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button Content="NEW RECIPE" HorizontalAlignment="Left" Height="50" Margin="600,235,0,0" VerticalAlignment="Top" Width="200" Background="White" BorderBrush="#FFFDFDFD" Foreground="#FFE42626" FontWeight="Bold" FontStyle="Italic" FontSize="24" Click="Button_Click_1">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button Content="DLETE RECIPE" HorizontalAlignment="Left" Height="50" Margin="600,304,0,0" VerticalAlignment="Top" Width="200" Background="White" BorderBrush="#FFFDFDFD" Foreground="#FFE42626" FontWeight="Bold" FontStyle="Italic" FontSize="24" Click="Button_Click_3">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button Content="BACK" HorizontalAlignment="Left" Height="50" Margin="600,374,0,0" VerticalAlignment="Top" Width="200" Background="White" BorderBrush="#FFFDFDFD" Foreground="#FFE42626" FontWeight="Bold" FontStyle="Italic" FontSize="24" Click="Button_Click_2">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <TextBlock HorizontalAlignment="Left" Height="322" Margin="10,102,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="569" Background="#FFFBF6F6"/>
+
+    </Grid>
+</Window>
